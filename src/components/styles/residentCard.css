@@ -1,0 +1,71 @@
+
+.resident {
+    background-color: rgb(162, 173, 172);
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+}
+
+.resident__photo {
+    position: relative;
+}
+
+.resident__status {
+    background-color: blanchedalmond;
+    color: black;
+    position: absolute;
+    top: 10px;
+    padding:  5px 10px;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.resident__circle {
+    background-color: rgb(121, 117, 117);
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.Dead {
+    background-color: red;
+}
+
+.Alive {
+    background-color: green;
+}
+
+.unknown{
+    background-color: grey;
+}
+
+.resident__name {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.resident hr {
+    border: 2px solid brown;
+    width: 85%;
+    margin:  0 auto;
+}
+
+.resident__list {
+    padding: 15px;
+}
+
+.resident__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+.resident__item span:first-child {
+    padding-left: 20px;
+    color: gray;
+}

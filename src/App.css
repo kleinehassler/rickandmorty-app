@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*, 
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background-color: #05292E;
+  color: white;
+}
+
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+input, button{
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+}
+
+ul{
+  list-style: none;
+}
+
+h1{
+  font-weight: 500;
+  margin-top: 35px;
+}
+
+
+.app{
+  background-color: #05292E;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.app__form{
+  margin-top: 35px;
+}
+
+.app__img-header{
+  margin: 0 auto;
+  height: 300px;
+  
+
+
+
+}
+
+.app__text{
+  text-align: center;
+  width: 180px;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+.app__btn{
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 0 5px 5px 0;
+}
+
+.app__container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+  width: 100%;
+
+}
